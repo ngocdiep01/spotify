@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  white-space: nowrap;
+}
+
+body {
+  font-family: Circula, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-image: linear-gradient(#f037a5 -60%, #fae62d 140%);
+}
+
+nav {
+  height: 70px;
+  background-color:rgba(0,0,0,0.6);
+  align-items: center;
+}
+
+section {
+  height: 800px;
+  /* background-color: orange; */
+  height: 805px;
+  /* background: linear-gradient(#f037a5 -60%, #fae62d 140%); */
+}
+
+footer {
+  height: 600px;
+  background-color: black;
+}
+
+.spotify-logo {
+  width: 132px;
+  height: 41.88px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1170px;
+}
+
+nav ul {
+  flex: 1;
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav li {
+  margin-right: 10px;
+}
+
+.hero-img {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  background-image: url(https://www.scdn.co/i/home/hero-burst-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#title {
+  color: white;
+  text-align: center;
+  font-size: 80px;
+  font-weight: 900;
+  letter-spacing: -.04em;
+  line-height: 1.15;
+  margin-bottom: 20px;
+}
+
+section .container {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.btn-spotify {
+  width: 260px;
+  margin: 0 auto;
+  color: white;
+  background-color: #1db954;
+  padding: 18px 42px 18px;
+  border: 0px;
+  border-radius: 500px;
+  margin-top: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 2px;
+  transition-duration: .3s;
+}
+
+.btn-spotify:hover {
+  cursor: pointer;
+  background-color: #1ed760;
+}
+
+footer {
+  color: white;
+  display: flex;
+  align-items: center;
+}
